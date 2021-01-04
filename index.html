@@ -17,7 +17,33 @@
       alert(age + "is a good age, " + name + "!");
       var where = prompt("Where would you like to go?");
       alert(age + " is a good age to go to " + where + ", " + name + "!");
-
+      var pets = prompt("How many pets do you have?");
+      if (pets == 0){
+        alert(age + " is a good age to go to " + where + " without pets, " + name + "!");
+      }
+      else if (pets == 1){
+        alert(age + " is a good age to go to " + where + " with a pet, " + name + "!");
+      }
+      else {
+        alert(age + " is a good age to go to " + where + " with pets, " + name + "!");
+      }
     </script>
+    <header></header>
+    <main>
+      <h1>Lab 1b</h1>
+    </main>
+    <footer></footer>
+    <p style="color: red; background-color: lightskyblue;">
+      What is your name?
+    </p>
+    <p style="color: blue; background-color: lightslategrey;">
+      How old are you?
+    </p>
+    <p style="color: purple; background-color: lightpink;">
+      Where would you like to go?
+    </p>
+    <p style="color: green; background-color: lightsalmon;">
+      How many pets do you have?
+    </p>
   </body>
 </html>
